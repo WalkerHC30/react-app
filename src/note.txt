@@ -1,0 +1,9 @@
+常用型別interface:
+
+1. ReactNode
+2. 指定props類型：
+interface Props {
+  children: string;
+  color?: "primary" | "danger" | "secondary";
+  onClick: () => void;
+}
