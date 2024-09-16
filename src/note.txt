@@ -7,3 +7,9 @@ interface Props {
   color?: "primary" | "danger" | "secondary";
   onClick: () => void;
 }
+3. 建立index.ts在元件資料夾裡當作索引用以簡化import路徑;
+4. 使用CSS module防止樣式衝突
+5. 乘上，使用CSS module時，CSS的選擇器命名可以用駝峰;
+6. <React.StrictMode> 渲染兩次的用意是幫助發現不純組件(Not pure ex. 每次渲染內容都不一樣，像是變數一直增加等);
+7. immer庫
+ 
