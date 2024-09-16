@@ -15,4 +15,5 @@ interface Props {
 8. [interface] FormEvent
 9. const nameRef = useRef<HTMLInputElement>(null); //使用ref要告訴TS是去麼類型的DOM
 10. FieldValues
+11. 表單驗證：react-hook-form + zod + hookform/resolvers;
  
