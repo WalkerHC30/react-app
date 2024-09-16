@@ -11,7 +11,7 @@ function App() {
         </Alert>
       )}
       <Button color="secondary" onClick={() => setVisiblity(true)}>
-        Button
+        BUTTON
       </Button>
     </div>
   );
