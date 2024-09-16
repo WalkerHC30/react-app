@@ -1,6 +1,6 @@
 常用型別interface:
 
-1. ReactNode
+1. [interface] ReactNode
 2. 指定props類型：
 interface Props {
   children: string;
@@ -12,4 +12,6 @@ interface Props {
 5. 乘上，使用CSS module時，CSS的選擇器命名可以用駝峰;
 6. <React.StrictMode> 渲染兩次的用意是幫助發現不純組件(Not pure ex. 每次渲染內容都不一樣，像是變數一直增加等);
 7. immer庫
+8. [interface] FormEvent
+9. const nameRef = useRef<HTMLInputElement>(null); //使用ref要告訴TS是去麼類型的DOM
  
